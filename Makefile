@@ -25,5 +25,5 @@ screenshotSetting:
 	defaults write com.apple.screencapture include-date true
 	killall SystemUIServer
 show:
-	imgcat ${screenshotRoot}${subDir}/*.jpg
+	imgcat ${scRoot}${subDir}/*.jpg
 
