@@ -18,7 +18,7 @@ scRoot=/Users/Shared/Screenshots/
 subDir=
 prefix=img
 screenshotSetting:
-	mkdir -p ${screenshotRoot}${subDir}
+	mkdir -p ${scRoot}${subDir}
 	defaults write com.apple.screencapture location ${scRoot}${subDir}
 	defaults write com.apple.screencapture name ${prefix}
 	defaults write com.apple.screencapture type jpg
